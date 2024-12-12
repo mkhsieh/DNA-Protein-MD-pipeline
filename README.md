@@ -39,7 +39,7 @@ Sampling for single-amino acid mutations by executing the following.
 
 python snp_sampling.py snp_input_test.txt 
 
-**The project is currently at the data recruiting stage...**
+
 
 
 
