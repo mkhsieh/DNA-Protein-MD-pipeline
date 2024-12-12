@@ -31,7 +31,7 @@ Prepare a input configuation file for setting up modeling as snp_input_test.txt.
 
 Example:
 
-5OMV/pre_input 1 MET-1-CYS 0.15 1 5OMV/chain3A DTP P(=O)([O-])(OP(=O)([O-])OP(=O)([O-])([O-]))OCC(O1)C(O)CC1(N2C=NC3=C(N)N=CN=C32) 5OMV/chain3A MG Mg+2 5OMV/chain3A MN MN+2
+5OMV/pre_input 1 MET-1-CYS 0.15 1 5OMV/chain3A DTP P(=O)([O-])(OP(=O)([O-])OP(=O)([O-])([O-]))OCC(O1)C(O)CC1(N2C=NC3=C(N)N=CN=C32) 5OMV/chain3A MG Mg+2 5OMV/chain3A MN Mn+2
 
 **Fourth**
 
