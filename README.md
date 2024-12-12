@@ -2,7 +2,7 @@
 
 Min-Kang Hsieh
 
-This is a molcular dynamics simulation pipeline for a DNA-protein-ligands complex to probe single-amino acid mutation effects on structure of complex that associated with its enzymatic functions.
+This is a molecular dynamics simulation pipeline used to generate a molecular library of DNA-protein-ligand complexes to probe the effects of single amino acid mutations on the structure of the complex relative to its enzymatic function.
 
 # Usage:
 A showcase for archaeal 9N DNA polymerase (B-family; PDB ID: 5OMV):
