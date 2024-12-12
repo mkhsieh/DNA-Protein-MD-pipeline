@@ -1,0 +1,5 @@
+REMARK   1 CREATED WITH OPENMM 8.2, 2024-12-12
+CRYST1   66.688   94.964  158.735  90.00  90.00  90.00 P 1           1 
+HETATM    1 MN    MN A   1      81.047  96.507  28.218  1.00  0.00          Mn  
+TER       2       MN A   1
+END

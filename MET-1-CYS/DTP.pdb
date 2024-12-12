@@ -1,0 +1,88 @@
+REMARK   1 CREATED WITH OPENMM 8.2, 2024-12-12
+CRYST1   66.688   94.964  158.735  90.00  90.00  90.00 P 1           1 
+HETATM    1  PG  DTP A   1      84.356  95.792  28.494  1.00  0.00           P  
+HETATM    2  O1G DTP A   1      84.674  94.335  28.693  1.00  0.00           O  
+HETATM    3  O2G DTP A   1      85.433  96.760  29.026  1.00  0.00           O  
+HETATM    4  O3G DTP A   1      83.025  96.227  29.104  1.00  0.00           O  
+HETATM    5  PB  DTP A   1      83.217  96.233  25.889  1.00  0.00           P  
+HETATM    6  O1B DTP A   1      83.704  95.673  24.556  1.00  0.00           O  
+HETATM    7  O2B DTP A   1      81.910  95.700  26.364  1.00  0.00           O  
+HETATM    8  O3B DTP A   1      84.401  96.023  26.920  1.00  0.00           O  
+HETATM    9  PA  DTP A   1      82.379  99.020  26.389  1.00  0.00           P  
+HETATM   10  O1A DTP A   1      83.359 100.155  26.588  1.00  0.00           O  
+HETATM   11  O2A DTP A   1      81.612  98.628  27.619  1.00  0.00           O  
+HETATM   12  O3A DTP A   1      83.215  97.816  25.787  1.00  0.00           O  
+HETATM   13  O5' DTP A   1      81.422  99.456  25.179  1.00  0.00           O  
+HETATM   14  C5' DTP A   1      80.251  98.699  24.815  1.00  0.00           C  
+HETATM   15  C4' DTP A   1      80.256  98.394  23.334  1.00  0.00           C  
+HETATM   16  O4' DTP A   1      80.324  99.622  22.575  1.00  0.00           O  
+HETATM   17  C3' DTP A   1      81.426  97.565  22.827  1.00  0.00           C  
+HETATM   18  O3' DTP A   1      81.160  96.173  22.987  1.00  0.00           O  
+HETATM   19  C2' DTP A   1      81.436  97.930  21.349  1.00  0.00           C  
+HETATM   20  C1' DTP A   1      81.038  99.397  21.362  1.00  0.00           C  
+HETATM   21  N9  DTP A   1      82.190 100.282  21.339  1.00  0.00           N  
+HETATM   22  C8  DTP A   1      82.836 100.840  22.411  1.00  0.00           C  
+HETATM   23  N7  DTP A   1      83.984 101.396  22.112  1.00  0.00           N  
+HETATM   24  C5  DTP A   1      84.099 101.202  20.742  1.00  0.00           C  
+HETATM   25  C6  DTP A   1      85.116 101.511  19.819  1.00  0.00           C  
+HETATM   26  N6  DTP A   1      86.231 102.166  20.131  1.00  0.00           N  
+HETATM   27  N1  DTP A   1      84.939 101.124  18.535  1.00  0.00           N  
+HETATM   28  C2  DTP A   1      83.808 100.489  18.208  1.00  0.00           C  
+HETATM   29  N3  DTP A   1      82.781 100.152  18.989  1.00  0.00           N  
+HETATM   30  C4  DTP A   1      82.990 100.531  20.253  1.00  0.00           C  
+HETATM   31 H5'1 DTP A   1      79.345  99.236  25.094  1.00  0.00           H  
+HETATM   32 H5'2 DTP A   1      80.287  97.802  25.431  1.00  0.00           H  
+HETATM   33  H4' DTP A   1      79.313  97.932  23.047  1.00  0.00           H  
+HETATM   34  H3' DTP A   1      82.354  97.842  23.325  1.00  0.00           H  
+HETATM   35 HO3' DTP A   1      81.995  95.769  23.341  1.00  0.00           H  
+HETATM   36 H2'1 DTP A   1      80.717  97.345  20.778  1.00  0.00           H  
+HETATM   37 H2'2 DTP A   1      82.381  97.729  20.845  1.00  0.00           H  
+HETATM   38  H1' DTP A   1      80.353  99.673  20.561  1.00  0.00           H  
+HETATM   39  H8  DTP A   1      82.435 100.826  23.423  1.00  0.00           H  
+HETATM   40 HN61 DTP A   1      86.938 102.367  19.431  1.00  0.00           H  
+HETATM   41 HN62 DTP A   1      86.383 102.473  21.086  1.00  0.00           H  
+HETATM   42  H2  DTP A   1      83.733 100.216  17.157  1.00  0.00           H  
+TER      43      DTP A   1
+CONECT    1    2    3    4    8
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    6    7    8   12
+CONECT    6    5
+CONECT    7    5
+CONECT    8    1    5
+CONECT    9   10   11   12   13
+CONECT   10    9
+CONECT   11    9
+CONECT   12    5    9
+CONECT   13    9   14
+CONECT   14   13   15   31   32
+CONECT   15   14   16   17   33
+CONECT   16   15   20
+CONECT   17   15   18   19   34
+CONECT   18   17   35
+CONECT   19   17   20   36   37
+CONECT   20   16   19   21   38
+CONECT   21   20   22   30
+CONECT   22   21   23   39
+CONECT   23   22   24
+CONECT   24   23   25   30
+CONECT   25   24   26   27
+CONECT   26   25   40   41
+CONECT   27   25   28
+CONECT   28   27   29   42
+CONECT   29   28   30
+CONECT   30   21   24   29
+CONECT   31   14
+CONECT   32   14
+CONECT   33   15
+CONECT   34   17
+CONECT   35   18
+CONECT   36   19
+CONECT   37   19
+CONECT   38   20
+CONECT   39   22
+CONECT   40   26
+CONECT   41   26
+CONECT   42   28
+END

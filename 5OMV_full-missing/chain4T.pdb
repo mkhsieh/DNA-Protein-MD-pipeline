@@ -1,0 +1,5 @@
+REMARK   1 CREATED WITH OPENMM 8.2, 2024-12-11
+CRYST1   66.688   94.964  158.735  90.00  90.00  90.00 P 1           1 
+HETATM    1 MG    MG T 101      65.055 138.370   4.721  1.00  0.00          Mg  
+TER       2       MG T 101
+END
