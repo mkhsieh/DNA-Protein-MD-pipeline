@@ -30,10 +30,13 @@ Prepare a input configuation file for setting up modeling as snp_input_test.txt.
 (ref_structure) (number of mutation) (mutation) (KCl concentration) [ligand1:(pdb source) (residue name) (smiles code)] [ligand2:(pdb source) (residue name) (smiles code)] [ligand3:(pdb source) (residue name) (smiles code)] 
 
 Example:
+
 5OMV/pre_input 1 MET-1-CYS 0.15 1 5OMV/chain3A DTP P(=O)([O-])(OP(=O)([O-])OP(=O)([O-])([O-]))OCC(O1)C(O)CC1(N2C=NC3=C(N)N=CN=C32) 5OMV/chain3A MG Mg+2 5OMV/chain3A MN MN+2
 
 **Fourth**
+
 Sampling for single-amino acid mutations by executing the following.
+
 python snp_sampling.py snp_input_test.txt 
 
 **The project is currently at the data recruiting stage...**
