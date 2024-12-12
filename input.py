@@ -107,8 +107,8 @@ for i in range(nf):
         fasta.write(f'>{i*n+j} {list(snp.keys())[i*n+j]}\n')
         fasta.write(f'>{list(snp.values())[i*n+j]}\n')
         inputf.write(f'{ref_struc} {nmut} {list(snp.keys())[i*n+j]} {conc} {method}') 
-        for i in range(len(lig_pdb)):
-            inputf.write(f' {lig_pdb[i]} {lig_res[i]} {lig_smiles[i]}')
+        for k in range(len(lig_pdb)):
+            inputf.write(f' {lig_pdb[k]} {lig_res[k]} {lig_smiles[k]}')
         inputf.write('\n')
     fasta.close()
     inputf.close()
@@ -122,8 +122,8 @@ if endloop > 0:
         fasta.write(f'>{nf*n+j} {list(snp.keys())[nf*n+j]}\n')
         fasta.write(f'>{list(snp.values())[nf*n+j]}\n')
         inputf.write(f'{ref_struc} {nmut} {list(snp.keys())[nf*n+j]} {conc} {method}')
-        for i in range(len(lig_pdb)):
-            inputf.write(f' {lig_pdb[i]} {lig_res[i]} {lig_smiles[i]}')
+        for k in range(len(lig_pdb)):
+            inputf.write(f' {lig_pdb[k]} {lig_res[k]} {lig_smiles[k]}')
         inputf.write('\n')
     fasta.close()
     inputf.close()
